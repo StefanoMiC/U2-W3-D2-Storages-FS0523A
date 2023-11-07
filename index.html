@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Test</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 20px;
+        }
+
+        html.dark {
+            color-scheme: dark;
+        }
+
+        input[type="text"] {
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>LocalStorage for theme</h1>
+    <input type="datetime-local">
+    <input type="text" placeholder="Prova prova prova">
+    <button id="resetInput">❌</button>
+
+    <button id="setDark">Dark Mode</button>
+    <button id="remDark">Remove Dark Mode</button>
+    <!-- <script src="./webstorage.js"></script> -->
+    <script src="./dark-light.js"></script>
+</body>
+
+</html>

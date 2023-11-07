@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards with Storage</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #content {
+            display: flex;
+            margin-top: 2rem;
+        }
+
+        #content>* {
+            flex-basis: 33.333%;
+            width: 33.333%;
+            padding-inline: 0.5rem;
+        }
+
+        .card {
+            border: 2px solid lightgray;
+            border-radius: 10px;
+            height: 100%;
+            padding: 1rem 0.75rem;
+            box-shadow: 0 10px 25px rgb(0 0 0 / 15%);
+        }
+
+        .card-selected {
+            border-color: palegreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="content">
+        <!-- 
+            genereremo 3 elementi di questo tipo
+            <div class="col">
+                <div class="card"></div>
+            </div> -->
+    </div>
+
+    <script src="./discography.js"></script>
+    <script src="./cards.js"></script>
+</body>
+
+</html>
